@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Linux menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 30px;
+      margin: 0;
+    }
+    .avatar {
+      width: 140px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+    }
+    .avatar:hover {
+      transform: scale(1.05);
+    }
+    h1 {
+      margin: 10px 0;
+      font-size: 24px;
+      color: #143211;
+    }
+    p {
+      color: #333;
+      margin-bottom: 30px;
+      font-size: 15px;
+    }
+    .btn {
+      display: block;
+      width: 90%;
+      max-width: 400px;
+      margin: 12px auto;
+      padding: 15px;
+      background: linear-gradient(135deg, #000000, #434343);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 16px;
+      letter-spacing: 1px;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+      animation: fadeInUp 0.6s ease forwards;
+      opacity: 0;
+    }
+    .btn:hover {
+      transform: translateY(-3px) scale(1.02);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+    }
+
+    /* кнопка анимациясы */
+    @keyframes fadeInUp {
+      from {
+        transform: translateY(30px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    /* әр батырмаға кіруді сәл кешіктіру */
+    .btn:nth-of-type(1) { animation-delay: 0.2s; }
+    .btn:nth-of-type(2) { animation-delay: 0.4s; }
+    .btn:nth-of-type(3) { animation-delay: 0.6s; }
+    .btn:nth-of-type(4) { animation-delay: 0.8s; }
+    .btn:nth-of-type(5) { animation-delay: 1s; }
+    .btn:nth-of-type(6) { animation-delay: 1.2s; }
+    .btn:nth-of-type(7) { animation-delay: 1.4s; }
+    .btn:nth-of-type(8) { animation-delay: 1.6s; }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <img src="https://taplink.st/a/d/c/6/c/d27ffd.jpg?1" alt="Avatar" class="avatar">
+    <h1>𝐋𝐢𝐧𝐮𝐱</h1>
+    <p>𝐋𝐢𝐧𝐮𝐱 - самый лучший и удобный общественный кф</p>
+
+    <a href="https://t.me/+2oX-XasjBZFmNTAy" class="btn">𝐂𝐇𝐀𝐓</a>
+    <a href="https://t.me/archivelinux" class="btn">𝐀𝐑𝐂𝐇𝐈𝐕𝐄</a>
+    <a href="https://t.me/archivelinux/3" class="btn">𝐈𝐍𝐈𝐓𝐈𝐀𝐋</a>
+    <a href="http://t.me/aqrxrx" class="btn">𝐎𝐖𝐍𝐄𝐑</a>
+    <a href="https://t.me/archivelinux/4" class="btn">𝐒𝐓𝐎𝐑𝐄</a>
+    <a href="http://t.me/aqrxrx" class="btn">𝐂𝐎-𝐎𝐖𝐍</a>
+    <a href="https://t.me/linuxKzh/3" class="btn">𝐏𝐀𝐓𝐄𝐍𝐓</a>
+    <a href="https://t.me/boost/linuxKzh" class="btn">B𝐎𝐎𝐒𝐓</a>
+  </div>
+</body>
+</html>
